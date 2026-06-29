@@ -1,8 +1,8 @@
-# QuantRiskLab
+# Quantitative Decision Lab
 
 ## Quantitative Risk & Decision Intelligence Platform
 
-QuantRiskLab is an end-to-end quantitative analytics project designed to model risk, uncertainty and decision-making in complex financial and industrial systems.
+Quantitative Decision Lab is an end-to-end quantitative analytics project designed to model risk, uncertainty and decision-making in complex financial and industrial systems.
 
 The project combines financial data engineering, statistical modelling, risk analytics, Monte Carlo simulation, optimisation and interactive dashboarding to support better decisions under uncertainty.
 
@@ -37,7 +37,7 @@ The project is designed as a professional portfolio piece at the intersection of
 
 ## Professional Direction
 
-QuantRiskLab is not only focused on predicting financial markets.
+Quantitative Decision Lab is not only focused on predicting financial markets.
 
 Its broader purpose is to demonstrate how quantitative methods can be used to support decisions in uncertain environments, including:
 
@@ -164,7 +164,7 @@ Planned technologies:
 ## Repository Structure
 
 ```text
-quant-risk-lab/
+Quantitative-Decision-Lab/
 ├── data/
 ├── notebooks/
 ├── src/
