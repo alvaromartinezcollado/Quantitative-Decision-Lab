@@ -180,3 +180,17 @@ The long-term vision of Quantitative Decision Lab is to evolve from a financial 
 
 The final objective is to demonstrate the ability to transform data into quantitative insights that support strategic, financial and operational decisions in complex environments.
 
+## Current Status
+
+### Phase 1 — Market Data Pipeline
+
+Completed.
+
+The first phase downloads, cleans and prepares historical cross-asset market data.
+
+### Phase 2 — Cross-Asset Risk Analytics
+
+In progress.
+
+This phase computes formal risk and return metrics, including annualized return, CAGR, volatility, maximum drawdown, Sharpe Ratio, Sortino Ratio, Historical VaR and Historical CVaR.
+
