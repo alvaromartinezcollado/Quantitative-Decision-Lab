@@ -65,82 +65,43 @@ This makes the project relevant for roles such as:
 
 Financial data ingestion, cleaning and transformation.
 
-This module will collect historical market data for equities, ETFs, bonds and commodities, and prepare it for analysis.
-
 ### 2. Cross-Asset Risk Analytics
 
-Computation of key financial and statistical indicators, including:
+Computation of individual asset risk and return metrics, including volatility, drawdowns, Sharpe ratio, Sortino ratio, VaR and CVaR.
 
-* returns;
-* volatility;
-* drawdowns;
-* Sharpe ratio;
-* Sortino ratio;
-* beta;
-* correlation matrices;
-* Value at Risk;
-* Conditional Value at Risk.
+### 3. Portfolio Construction & Allocation
 
-### 3. Scenario Analysis & Stress Testing
+Construction of different portfolio allocations using selected assets and predefined weights.
 
-Evaluation of how portfolios or decisions behave under adverse scenarios, such as:
+This module will analyse how asset weights affect portfolio returns, volatility and diversification.
 
-* market crashes;
-* interest rate shocks;
-* energy price increases;
-* sector-specific downturns;
-* volatility spikes.
+### 4. Portfolio Risk Analytics
 
-### 4. Monte Carlo Simulation
+Computation of portfolio-level risk and performance metrics, including portfolio return, volatility, drawdown, Sharpe ratio, Sortino ratio, VaR and CVaR.
+
+### 5. Scenario Analysis & Stress Testing
+
+Evaluation of how portfolios behave under adverse scenarios such as market crashes, interest rate shocks, energy shocks, sector drawdowns and volatility spikes.
+
+### 6. Monte Carlo Simulation
 
 Simulation of uncertain future outcomes using stochastic methods.
 
-This module will be used to estimate distributions of possible results instead of relying on a single deterministic forecast.
+### 7. Decision Optimisation
 
-### 5. Decision Optimisation
+Optimisation of portfolio allocations and decision variables under risk and uncertainty.
 
-Optimisation of decisions under uncertainty.
+### 8. Strategy Backtesting
 
-Possible applications include:
+Testing and comparison of systematic decision rules such as momentum, mean reversion, risk parity and volatility-based allocation.
 
-* portfolio allocation;
-* risk-adjusted asset selection;
-* capital allocation;
-* resource allocation;
-* supply chain or aerospace-inspired decision problems.
+### 9. Performance Optimisation
 
-### 6. Strategy Backtesting
+Benchmarking and optimisation of computationally intensive modules using vectorisation, Numba and potentially GPU acceleration.
 
-Testing and comparison of systematic decision rules, such as:
+### 10. Dashboard
 
-* momentum strategies;
-* mean reversion strategies;
-* risk parity allocation;
-* volatility-based allocation;
-* defensive allocation rules.
-
-The objective is not only to find profitable strategies, but to understand risk, robustness and decision quality.
-
-### 7. Performance Optimisation
-
-Benchmarking and optimisation of computationally intensive modules using:
-
-* vectorisation;
-* NumPy optimisation;
-* Numba;
-* multiprocessing;
-* potentially GPU acceleration.
-
-### 8. Dashboard
-
-Interactive dashboard for visualising:
-
-* portfolio performance;
-* risk metrics;
-* scenario results;
-* Monte Carlo simulations;
-* optimisation outputs;
-* decision recommendations.
+Interactive dashboard for visualising portfolio performance, risk metrics, scenario results, Monte Carlo simulations and decision recommendations.
 
 ## Tech Stack
 
@@ -186,11 +147,12 @@ The final objective is to demonstrate the ability to transform data into quantit
 
 Completed.
 
-The first phase downloads, cleans and prepares historical cross-asset market data.
-
 ### Phase 2 — Cross-Asset Risk Analytics
 
-In progress.
+Completed.
 
-This phase computes formal risk and return metrics, including annualized return, CAGR, volatility, maximum drawdown, Sharpe Ratio, Sortino Ratio, Historical VaR and Historical CVaR.
+### Phase 3 — Portfolio Construction & Allocation
 
+Next.
+
+This phase will construct several portfolio allocations and analyse how combining assets changes risk and return.
