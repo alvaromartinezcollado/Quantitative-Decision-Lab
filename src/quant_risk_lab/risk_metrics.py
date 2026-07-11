@@ -119,6 +119,30 @@ def compute_max_drawdown(
     return max_drawdown
 
 
+def compute_cumulative_returns(
+    returns: pd.DataFrame,
+) -> pd.DataFrame:
+    """
+    Compute cumulative returns from daily returns.
+    """
+    cumulative_returns = (1 + returns).cumprod()
+
+    return cumulative_returns
+
+
+def compute_drawdowns(
+    returns: pd.DataFrame,
+) -> pd.DataFrame:
+    """
+    Compute drawdown series from daily returns.
+    """
+    cumulative_returns = compute_cumulative_returns(returns)
+    running_max = cumulative_returns.cummax()
+
+    drawdowns = cumulative_returns / running_max - 1
+
+    return drawdowns
+
 def compute_sharpe_ratio(
     returns: pd.DataFrame,
     risk_free_rate: float = RISK_FREE_RATE,
