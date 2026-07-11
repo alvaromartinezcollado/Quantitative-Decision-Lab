@@ -73,7 +73,7 @@ Computation of individual asset risk and return metrics, including volatility, d
 
 Construction of different portfolio allocations using selected assets and predefined weights.
 
-This module will analyse how asset weights affect portfolio returns, volatility and diversification.
+This module analyses how asset weights affect portfolio returns, volatility and diversification.
 
 ### 4. Portfolio Risk Analytics
 
@@ -147,12 +147,16 @@ The final objective is to demonstrate the ability to transform data into quantit
 
 Completed.
 
+The first phase downloads, cleans and prepares historical cross-asset market data.
+
 ### Phase 2 — Cross-Asset Risk Analytics
 
 Completed.
 
+This phase computes formal risk and return metrics for individual assets, including annualized return, CAGR, volatility, maximum drawdown, Sharpe Ratio, Sortino Ratio, Historical VaR and Historical CVaR.
+
 ### Phase 3 — Portfolio Construction & Allocation
 
-Next.
+In progress.
 
-This phase will construct several portfolio allocations and analyse how combining assets changes risk and return.
+This phase constructs several portfolio allocations and analyses how asset weights affect portfolio returns, volatility, drawdowns and downside risk.
