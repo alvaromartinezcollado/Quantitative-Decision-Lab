@@ -157,6 +157,12 @@ This phase computes formal risk and return metrics for individual assets, includ
 
 ### Phase 3 — Portfolio Construction & Allocation
 
-In progress.
+Completed.
 
 This phase constructs several portfolio allocations and analyses how asset weights affect portfolio returns, volatility, drawdowns and downside risk.
+
+### Phase 4 — Scenario Analysis & Stress Testing
+
+In progress.
+
+This phase evaluates how different portfolio allocations behave under hypothetical adverse market scenarios such as market crashes, technology selloffs, interest rate shocks, energy shocks and inflation shocks.
